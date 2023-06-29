@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Desafio Acelerar</title>
+    <title>Desafío Acelerar</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%# Font Awesome %>
+    <%= javascript_include_tag "https://kit.fontawesome.com/7a68670e35.js" %>
+
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "main" %>
-    <%= stylesheet_link_tag "fontawesome-all.min" %>
     <noscript><%= stylesheet_link_tag "noscript" %></noscript>
     <%= javascript_importmap_tags %>
   </head>
@@ -18,7 +20,6 @@
   </body>
 
   <%# Scripts %>
-  <%= javascript_include_tag "application" %>
   <%= javascript_include_tag "jquery.min" %>
   <%= javascript_include_tag "browser.min" %>
   <%= javascript_include_tag "breakpoints.min" %>

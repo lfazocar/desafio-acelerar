@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Desafío evaluado "Acelerar la construcción de un proyecto"
 
-Things you may want to cover:
+# Software utilizado
 
-* Ruby version
+Ruby 3.2.2  
+Rails 7.0.5  
 
-* System dependencies
+# Plantilla utilizada
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Lens](https://html5up.net/lens) de HTML5 UP
