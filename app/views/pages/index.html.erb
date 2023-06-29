@@ -1,2 +1,48 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<!-- Main -->
+<div id="main">
+
+    <!-- Header -->
+        <header id="header">
+            <h1>Lens</h1>
+            <p>Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+            <ul class="icons">
+                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+        </header>
+
+    <!-- Thumbnail -->
+        <section id="thumbnails">
+            <article>
+                <%= link_to image_path "fulls/01.webp", class:"thumbnail" do %>
+                    <%= image_tag "thumbs/01.webp" %>
+                <% end %>
+                <h2>Diam tempus accumsan</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+            <article>
+                <%= link_to image_path "fulls/02.webp", class:"thumbnail" do %>
+                    <%= image_tag "thumbs/02.webp" %>
+                <% end %>
+                <h2>Vivamus convallis libero</h2>
+                <p>Sed velit lacus, laoreet at venenatis convallis in lorem tincidunt.</p>
+            </article>
+            <article>
+                <%= link_to image_path "fulls/03.webp", class:"thumbnail" do %>
+                    <%= image_tag "thumbs/03.webp" %>
+                <% end %>
+                <h2>Nec accumsan enim felis</h2>
+                <p>Maecenas eleifend tellus ut turpis eleifend, vitae pretium faucibus.</p>
+            </article>
+        </section>
+
+    <!-- Footer -->
+        <footer id="footer">
+            <ul class="copyright">
+                <li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
+            </ul>
+        </footer>
+
+</div>
